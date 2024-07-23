@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    background-color: white;
+}
+
+/* 1 шапка профиля */
+
+.header-page-1 {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-page-1__logo__text {
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 13px;
+}
+
+.header-page-1__top-menu-text li{
+    display: inline-block;
+    padding: 30px;
+}
+
+.header-page-1__top-menu-text__a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+.header-page-1__top-menu-icons__image {
+    height: 15px;
+    width: 15px;
+    padding-right: 30px;
+}
+
+.header-page-1__top-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* 2 шапка страницы */ 
+
+.header-page-2 {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(250, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-page-2__top-menu li{
+    display: inline-block;
+    color: rgb(108, 108, 108);
+    font-size: 15px;
+}
+
+.header-page-2__top-menu__text {
+    padding: 30px;
+}
+
+/* Блок по середине */
+
+.block-in-center-text-and-image-chair {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* 1 блок внутри основного блока */
+
+.block-in-center-text-and-image-chair__block-1 {
+    background-color: #2A254B;
+    width: 700px;
+    height: 510px;
+}
+
+.block-in-center-text-and-image-chair__block-1__text-1 {
+    color: white;
+    font-size: 26.5px;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: normal;
+}
+
+.block-in-center-text-and-image-chair__block-1__btn {
+    height: 43px;
+    width: 135px;
+    margin-left: 50px;
+    margin-top: 35px;
+    border: none;
+    color: white;
+    background-color: rgb(86, 86, 120);
+    font-family: "Nunito", sans-serif;
+}
+
+.block-in-center-text-and-image-chair__block-1__text-2 {
+    color: white;
+    padding-left: 50px;
+    display: grid;
+    align-items: end;
+    font-size: 14px;
+    height: 250px;
+}
+
+/* 2 блок внутри основного блока */
+
+.block-in-center-text-and-image-chair__block-2 {
+    background-color: rgb(129, 165, 148);
+    width: 500px;
+    height: 510px;
+}
+
+.block-in-center-text-and-image-chair__block-2__image {
+    width: 500px;
+    height: 510px;
+}
+
+/* заголовок */
+
+.info-block-in-center__heading {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 40px;
+}
+
+.heading-number-1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 23px;
+}
+
+/* Информационный блок по середине */
+
+.info-block-in-center {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.info-block-in-center__delivery-block {
+    background-color: white;
+    height: 135px;
+    width: 230px;
+    margin-top: 28px;
+}
+
+.info-block-in-center__original-block {
+    background-color: white;
+    height: 135px;
+    width: 230px;
+    margin-top: 35px;
+}
+
+.info-block-in-center__prices-block {
+    background-color: white;
+    height: 135px;
+    width: 230px;
+    margin-top: 35px;
+}
+
+.info-block-in-center__natural-block {
+    background-color: white;
+    height: 135px;
+    width: 230px;
+    margin-top: 35px;
+}
+
+.info-block-in-center__delivery-block__image-icon {
+    width: 33px;
+    height: 33px;
+}
+
+.info-block-in-center__delivery-block__text-1 {
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.info-block-in-center__delivery-block__text-2 {
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+.info-block-in-center__original-block__image-icon {
+    width: 27px;
+    height: 27px;
+    margin-left: 50px; 
+}
+
+.info-block-in-center__original-block__text-1 {
+    padding-left: 50px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.info-block-in-center__original-block__text-2 {
+    padding-left: 50px;
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+.info-block-in-center__prices-block__image-icon {
+    width: 27px;
+    height: 27px;
+    margin-left: 50px;
+}
+
+.info-block-in-center__prices-block__text-1 {
+    padding-left: 50px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.info-block-in-center__prices-block__text-2 {
+    padding-left: 50px;
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+.info-block-in-center__natural-block__image-icon {
+    width: 27px;
+    height: 27px;
+    margin-left: 50px;
+}
+
+.info-block-in-center__natural-block__text-1 {
+    padding-left: 50px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.info-block-in-center__natural-block__text-2 {
+    padding-left: 50px;
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+/* блок с продажей керамики */
+
+.ceramics-block {
+    width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.ceramics-block__heading {
+    padding-left: 5px;
+}
+
+.ceramics-block__photo-block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.ceramics-block__photo-block__chair-block__image {
+    width: 290px;
+    height: 350px;
+}
+
+.ceramics-block__photo-block__vases-block__image {
+    width: 290px;
+    height: 350px;
+}
+
+.ceramics-block__photo-block__vase-block__image {
+    width: 290px; 
+    height: 350px;
+}
+
+.ceramics-block__photo-block__lamp-block__image {
+    width: 290px; 
+    height: 350px
+}
+
+.ceramics-block__heading {
+    font-size: 29px;
+}
+
+.ceramics-block__photo-block__chair-block__text {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.ceramics-block__photo-block__vases-block__text {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.ceramics-block__photo-block__vase-block__text {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.ceramics-block__photo-block__lamp-block__text {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.ceramics-block__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.ceramics-block__btn {
+    width: 170px;
+    height: 40px;
+    border: none;
+    background-color: #F9F9F9;
+    font-family: "Nunito", sans-serif;
+}
+
+/* блок с популярными товарами */ 
+
+.popular-products__block {
+    width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.popular-products__block__heading {
+    font-size: 29px;
+}
+
+.popular-products__block__galery-block {
+    padding-top: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}
+
+.popular-products__block__galery-block__block-sofa__image {
+    width: 530px;
+    height: 330px;
+}
+
+.popular-products__block__galery-block__block-chair__image {
+    height: 330px;
+    width: 325px;
+}
+
+.popular-products__block__galery-block__block-shair-black__image {
+    height: 330px;
+    width: 325px;
+}
+
+.popular-products__block__galery-block__block-sofa__text {
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+.popular-products__block__galery-block__block-chair__text {
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+.popular-products__block__galery-block__block-shair-black__text {
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+/* регистрационный блок */
+
+.registration-block {
+    width: 100%;
+    height: 390px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-block__center-block {
+    width: 1450px;
+    background-color: white;
+    height: 145px;
+}
+
+.registration-block__center-block__heading {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.registration-block__center-block__text {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.registration-block-two__inp-and-btn__input {
+    width: 300px;
+    height: 55px;
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: #f9f9f9;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.registration-block-two__inp-and-btn__input:focus {
+    outline: none;
+}
+
+.registration-block-two {
+    height: 145px;
+    width: 1450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-block-two__inp-and-btn__btn {
+    background-color: #2A254B;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    height: 55px;
+    color: white;
+    width: 95px;
+}
+
+/* блок с текстом и диваном */
+
+.two-block-in-center {
+    width: 100%;
+    height: 503px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-block-in-center__block-text {
+    height: 503px;
+    background-color: white;
+    width: 50%;
+}
+
+.two-block-in-center__block-photo {
+    height: 503px;
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+}
+
+.two-block-in-center__block-photo__image {
+    width: 100%;
+    height: 503px;
+}
+
+.two-block-in-center__block-text__heading {
+    font-size: 24px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.two-block-in-center__block-text__heading__text1 {
+    font-size: 15px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.two-block-in-center__block-text__btn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #F9F9F9;
+    font-family: "Nunito", sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* футер */
+
+footer {
+    background-color: #2A254B;
+    width: 100%;
+    height: 350px;
+}
+
+.four-blocks-in-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-block-1 {
+    height: 280px;
+    width: 16.66%;
+}
+
+.footer-block-2 {
+    height: 280px;
+    width: 16.66%;
+}
+
+.footer-block-3 {
+    height: 280px;
+    width: 16.66%;
+}
+
+.footer-block-4 {
+    height: 280px;
+    width: 50%;
+}
+
+.footer-block-1__text__glav {
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.footer-block-1__text {
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.footer-block-2__text__glav {
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.footer-block-2__text {
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.footer-block-3__text__glav {
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.footer-block-3__text {
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.footer-block-4__input {
+    width: 380px;
+    height: 55px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #584f70;
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.footer-block-4__input:focus{
+    outline:  none;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.linea-in-footer {
+    background-color: #4E4D93;
+    height: 0.5px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.the-lower-2-blocks {
+
+}
+
+.the-lower-2-blocks__block-1__text {
+    color: white;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.the-lower-2-blocks__block-2__icon {
+    width: 24px;
+    height: 24px;
+}
+
+
